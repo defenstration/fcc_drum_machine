@@ -1,0 +1,20 @@
+* {
+    border: 1px solid black
+  }
+  
+  #drum-machine {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #drum-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .drum-pad {
+    height: 50px;
+    width: 50px;
+  }
+  
